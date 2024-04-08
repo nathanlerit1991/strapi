@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "restaurants",
+  "info": {
+    "singularName": "restaurant",
+    "pluralName": "restaurants",
+    "displayName": "Restaurant",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.card"
+    },
+    "Banner": {
+      "type": "string"
+    },
+    "Carousel": {
+      "type": "component",
+      "repeatable": true,
+      "component": "carousel.carousel"
+    }
+  }
+}
